@@ -1,0 +1,14 @@
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\bin\Debug\net8.0\AdvanceConcepts.exe
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\bin\Debug\net8.0\AdvanceConcepts.deps.json
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\bin\Debug\net8.0\AdvanceConcepts.runtimeconfig.json
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\bin\Debug\net8.0\AdvanceConcepts.dll
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\bin\Debug\net8.0\AdvanceConcepts.pdb
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\obj\Debug\net8.0\AdvanceConcepts.GeneratedMSBuildEditorConfig.editorconfig
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\obj\Debug\net8.0\AdvanceConcepts.AssemblyInfoInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\obj\Debug\net8.0\AdvanceConcepts.AssemblyInfo.cs
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\obj\Debug\net8.0\AdvanceConcepts.csproj.CoreCompileInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\obj\Debug\net8.0\AdvanceConcepts.dll
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\obj\Debug\net8.0\refint\AdvanceConcepts.dll
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\obj\Debug\net8.0\AdvanceConcepts.pdb
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\obj\Debug\net8.0\AdvanceConcepts.genruntimeconfig.cache
+E:\IdealSoftware\Evening Batch\28May24\AdvanceConcepts\obj\Debug\net8.0\ref\AdvanceConcepts.dll

@@ -1,0 +1,14 @@
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\bin\Debug\net8.0\CSharpLINQ.exe
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\bin\Debug\net8.0\CSharpLINQ.deps.json
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\bin\Debug\net8.0\CSharpLINQ.runtimeconfig.json
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\bin\Debug\net8.0\CSharpLINQ.dll
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\bin\Debug\net8.0\CSharpLINQ.pdb
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\obj\Debug\net8.0\CSharpLINQ.GeneratedMSBuildEditorConfig.editorconfig
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\obj\Debug\net8.0\CSharpLINQ.AssemblyInfoInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\obj\Debug\net8.0\CSharpLINQ.AssemblyInfo.cs
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\obj\Debug\net8.0\CSharpLINQ.csproj.CoreCompileInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\obj\Debug\net8.0\CSharpLINQ.dll
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\obj\Debug\net8.0\refint\CSharpLINQ.dll
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\obj\Debug\net8.0\CSharpLINQ.pdb
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\obj\Debug\net8.0\CSharpLINQ.genruntimeconfig.cache
+E:\IdealSoftware\Evening Batch\28May24\CSharpLINQ\obj\Debug\net8.0\ref\CSharpLINQ.dll

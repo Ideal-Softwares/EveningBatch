@@ -1,0 +1,14 @@
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\bin\Release\net8.0\Abstraction.exe
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\bin\Release\net8.0\Abstraction.deps.json
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\bin\Release\net8.0\Abstraction.runtimeconfig.json
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\bin\Release\net8.0\Abstraction.dll
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\bin\Release\net8.0\Abstraction.pdb
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\obj\Release\net8.0\Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\obj\Release\net8.0\Abstraction.AssemblyInfoInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\obj\Release\net8.0\Abstraction.AssemblyInfo.cs
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\obj\Release\net8.0\Abstraction.csproj.CoreCompileInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\obj\Release\net8.0\Abstraction.dll
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\obj\Release\net8.0\refint\Abstraction.dll
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\obj\Release\net8.0\Abstraction.pdb
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\obj\Release\net8.0\Abstraction.genruntimeconfig.cache
+E:\IdealSoftware\Evening Batch\28May24\Abstraction\obj\Release\net8.0\ref\Abstraction.dll

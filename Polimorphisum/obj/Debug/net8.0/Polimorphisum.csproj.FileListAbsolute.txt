@@ -1,0 +1,14 @@
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\bin\Debug\net8.0\Polimorphisum.exe
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\bin\Debug\net8.0\Polimorphisum.deps.json
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\bin\Debug\net8.0\Polimorphisum.runtimeconfig.json
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\bin\Debug\net8.0\Polimorphisum.dll
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\bin\Debug\net8.0\Polimorphisum.pdb
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\obj\Debug\net8.0\Polimorphisum.GeneratedMSBuildEditorConfig.editorconfig
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\obj\Debug\net8.0\Polimorphisum.AssemblyInfoInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\obj\Debug\net8.0\Polimorphisum.AssemblyInfo.cs
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\obj\Debug\net8.0\Polimorphisum.csproj.CoreCompileInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\obj\Debug\net8.0\Polimorphisum.dll
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\obj\Debug\net8.0\refint\Polimorphisum.dll
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\obj\Debug\net8.0\Polimorphisum.pdb
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\obj\Debug\net8.0\Polimorphisum.genruntimeconfig.cache
+E:\IdealSoftware\Evening Batch\28May24\Polimorphisum\obj\Debug\net8.0\ref\Polimorphisum.dll

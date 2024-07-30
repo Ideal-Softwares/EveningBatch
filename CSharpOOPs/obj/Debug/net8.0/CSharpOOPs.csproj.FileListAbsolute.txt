@@ -1,0 +1,14 @@
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\bin\Debug\net8.0\CSharpOOPs.exe
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\bin\Debug\net8.0\CSharpOOPs.deps.json
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\bin\Debug\net8.0\CSharpOOPs.runtimeconfig.json
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\bin\Debug\net8.0\CSharpOOPs.dll
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\bin\Debug\net8.0\CSharpOOPs.pdb
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\obj\Debug\net8.0\CSharpOOPs.GeneratedMSBuildEditorConfig.editorconfig
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\obj\Debug\net8.0\CSharpOOPs.AssemblyInfoInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\obj\Debug\net8.0\CSharpOOPs.AssemblyInfo.cs
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\obj\Debug\net8.0\CSharpOOPs.csproj.CoreCompileInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\obj\Debug\net8.0\CSharpOOPs.dll
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\obj\Debug\net8.0\refint\CSharpOOPs.dll
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\obj\Debug\net8.0\CSharpOOPs.pdb
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\obj\Debug\net8.0\CSharpOOPs.genruntimeconfig.cache
+E:\IdealSoftware\Evening Batch\28May24\CSharpOOPs\obj\Debug\net8.0\ref\CSharpOOPs.dll

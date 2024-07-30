@@ -1,0 +1,14 @@
+E:\IdealSoftware\Evening Batch\28May24\Collections\bin\Release\net8.0\Collections.exe
+E:\IdealSoftware\Evening Batch\28May24\Collections\bin\Release\net8.0\Collections.deps.json
+E:\IdealSoftware\Evening Batch\28May24\Collections\bin\Release\net8.0\Collections.runtimeconfig.json
+E:\IdealSoftware\Evening Batch\28May24\Collections\bin\Release\net8.0\Collections.dll
+E:\IdealSoftware\Evening Batch\28May24\Collections\bin\Release\net8.0\Collections.pdb
+E:\IdealSoftware\Evening Batch\28May24\Collections\obj\Release\net8.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+E:\IdealSoftware\Evening Batch\28May24\Collections\obj\Release\net8.0\Collections.AssemblyInfoInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\Collections\obj\Release\net8.0\Collections.AssemblyInfo.cs
+E:\IdealSoftware\Evening Batch\28May24\Collections\obj\Release\net8.0\Collections.csproj.CoreCompileInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\Collections\obj\Release\net8.0\Collections.dll
+E:\IdealSoftware\Evening Batch\28May24\Collections\obj\Release\net8.0\refint\Collections.dll
+E:\IdealSoftware\Evening Batch\28May24\Collections\obj\Release\net8.0\Collections.pdb
+E:\IdealSoftware\Evening Batch\28May24\Collections\obj\Release\net8.0\Collections.genruntimeconfig.cache
+E:\IdealSoftware\Evening Batch\28May24\Collections\obj\Release\net8.0\ref\Collections.dll

@@ -1,0 +1,6 @@
+﻿select * from [dbo].[AspNetUserTokens]
+select * from [dbo].[__EFMigrationsHistory]
+select * from [dbo].[AspNetUsers]
+select * from [dbo].[AspNetRoles]
+select * from [dbo].[AspNetUserRoles]
+select * from [dbo].[AspNetUserLogins]

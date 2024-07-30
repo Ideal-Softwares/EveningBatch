@@ -1,0 +1,14 @@
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\bin\Release\net8.0\Polymorphism.exe
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\bin\Release\net8.0\Polymorphism.deps.json
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\bin\Release\net8.0\Polymorphism.runtimeconfig.json
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\bin\Release\net8.0\Polymorphism.dll
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\bin\Release\net8.0\Polymorphism.pdb
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\obj\Release\net8.0\Polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\obj\Release\net8.0\Polymorphism.AssemblyInfoInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\obj\Release\net8.0\Polymorphism.AssemblyInfo.cs
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\obj\Release\net8.0\Polymorphism.csproj.CoreCompileInputs.cache
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\obj\Release\net8.0\Polymorphism.dll
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\obj\Release\net8.0\refint\Polymorphism.dll
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\obj\Release\net8.0\Polymorphism.pdb
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\obj\Release\net8.0\Polymorphism.genruntimeconfig.cache
+E:\IdealSoftware\Evening Batch\28May24\Polymorphism\obj\Release\net8.0\ref\Polymorphism.dll

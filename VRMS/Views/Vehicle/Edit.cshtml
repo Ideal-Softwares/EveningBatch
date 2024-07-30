@@ -1,0 +1,51 @@
+﻿@model VehicleViewModel
+@{
+    ViewData["Title"] = "Edit Vehicle Page";
+}
+<div class="row">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Edit Vehicle</h5>
+            <div class="float-end">
+                <a asp-action="Index"><i class="fas fa-arrow-alt-circle-left"></i></a> |
+            </div>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+
+            <form action="Edit" method="post">
+                @Html.HiddenFor(m=>m.Id)
+                <div class="mb-3">
+                    @* <label for="vName" class="form-label">Vehicle Name</label> *@
+                    @Html.LabelFor(m => m.Name, new { @class = "form-label" })
+                    @* <input type="text" name="@Model.Name" class="form-control" id="vName" > *@
+                    @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Name)
+
+                </div>
+                <div class="mb-3">
+                    @* <label for="vDescription" class="form-label">Vehicle Description</label>
+                    <textarea class="form-control" id="vDescription">
+
+                    </textarea> *@
+                    @Html.LabelFor(m => m.Description, new { @class = "form-label" })
+                    @Html.TextAreaFor(m => m.Description, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Description)
+                </div>
+                <div class="mb-3">
+                    @* <label for="vModel" class="form-label">Vehicle Model</label>
+                    <input type="text" class="form-control" id="vModel"> *@
+                    @Html.LabelFor(m => m.Model, new { @class = "form-label" })
+                    @Html.TextBoxFor(m => m.Model, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Model)
+                </div>
+                <div class="mb-3">
+                    @* <label for="vColor" class="form-label">Vehicle Color</label>
+                    <input type="text" class="form-control" id="vColor"> *@
+                    @Html.LabelFor(m => m.Color, new { @class = "form-label" })
+                    @Html.TextBoxFor(m => m.Color, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Color)
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
