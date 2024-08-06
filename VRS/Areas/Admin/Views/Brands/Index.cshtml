@@ -1,0 +1,58 @@
+﻿@model IEnumerable<VRS.Areas.Admin.Models.VM.BrandVM>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Brands</h1>
+
+<section class="">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Brand page -->
+                <div class="card card-primary card-outline">
+                    <div class="card-body box-profile">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-6 col-12">
+                                <button type="button" class="btn btn-block btn-outline-primary btn-lg"><a asp-action="Create">Create New</a></button>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                            @foreach (var item in Model)
+                            {
+                                <div class="col-md-3 col-sm-6 col-12">
+                                    <div class="info-box bg-gradient-info">
+                                        <span class="info-box-icon"><i class="far fa-bookmark"></i></span>
+                                        <div class="info-box-content">
+                                            <span class="info-box-text">@item.BrandName</span>
+                                            <span class="info-box-number">0</span>
+
+                                            <div class="progress">
+                                                <div class="progress-bar" style="width: 100%"></div>
+                                            </div>
+                                            <span class="progress-description">
+                                                <a class="text-white" asp-action="Edit" asp-route-id="@item.Id"><i class="fas fa-edit"></i></a> |
+                                                <a class="text-white" asp-action="Details" asp-route-id="@item.Id"><i class="fas fa-info"></i></a> |
+                                                <a class="text-white" asp-action="Delete" asp-route-id="@item.Id"><i class="fas fa-trash"></i></a>
+                                            </span>
+                                        </div>
+                                        <!-- /.info-box-content -->
+
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+

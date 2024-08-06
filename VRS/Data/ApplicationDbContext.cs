@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using VRS.Areas.Admin.Models;
 
 namespace VRS.Data
 {
@@ -9,5 +10,10 @@ namespace VRS.Data
             : base(options)
         {
         }
+
+        public DbSet<Category> categories { get; set; }
+        public DbSet<Brand> brands { get; set; }
+        public DbSet<Vehicle> vehicles { get; set; }
+
     }
 }
