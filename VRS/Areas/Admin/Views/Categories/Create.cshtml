@@ -1,4 +1,4 @@
-﻿@model VRS.Areas.Admin.Models.Category
+﻿@model VRS.Areas.Admin.Models.VM.CategoryVM
 
 @{
     ViewData["Title"] = "Create";
@@ -7,7 +7,7 @@
 
 <h1>Create</h1>
 
-<h4>Category</h4>
+@* <h4>Category</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -48,7 +48,42 @@
             </div>
         </form>
     </div>
-</div>
+</div> *@
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-primary card-outline">
+                    <div class="card-body box-profile">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-6 col-12">
+                                <button type="button" class="btn btn-block btn-outline-primary btn-lg"><a asp-action="Index">Back to List</a></button>
+                            </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <form asp-action="Create" method="post">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div class="form-group">
+                                        <label asp-for="CategoryName" class="control-label"></label>
+                                        <input asp-for="CategoryName" class="form-control" />
+                                        <span asp-validation-for="CategoryName" class="text-danger"></span>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="submit" value="Save" class="btn btn-primary" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <div>
     <a asp-action="Index">Back to List</a>

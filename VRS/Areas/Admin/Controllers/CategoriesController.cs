@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using VRS.Areas.Admin.Models;
+using VRS.Areas.Admin.Models.VM;
 using VRS.Data;
 
 namespace VRS.Areas.Admin.Controllers
@@ -24,7 +25,7 @@ namespace VRS.Areas.Admin.Controllers
         // GET: Admin/Categories
         public async Task<IActionResult> Index()
         {
-            return View(await _context.categories.ToListAsync());
+            return View(await _context.categories.Select(c=>new CategoryVM {Id=c.Id, CategoryName=c.CategoryName }).ToListAsync());
         }
 
         // GET: Admin/Categories/Details/5
@@ -56,16 +57,27 @@ namespace VRS.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,CategoryName,Status,CreatedBy,CreatedTime,UpdatedBy,UpdatedTime")] Category category)
+        public async Task<IActionResult> Create([Bind("Id,CategoryName")] CategoryVM category)
         {
             if (ModelState.IsValid)
             {
                 // For ASP.NET Core >= 5.0
                 var Userid = User.FindFirstValue(ClaimTypes.NameIdentifier);// will give the user's Id
-                category.CreatedBy = new Guid(Userid);
-                category.CreatedTime = DateTime.Now;
+                //category.CreatedBy = new Guid(Userid);
+                //category.CreatedTime = DateTime.Now;
 
-                _context.Add(category);
+                Category category1 = new Category
+                {
+                    Id = category.Id,
+                    CategoryName = category.CategoryName,
+                    CreatedBy=new Guid(Userid),
+                    CreatedTime = DateTime.Now, 
+                    UpdatedBy= Guid.Empty,
+                    UpdatedTime = null,
+                    Status=false,
+                };
+
+                _context.Add(category1);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
