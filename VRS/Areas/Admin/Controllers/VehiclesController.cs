@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using VRS.Areas.Admin.Models;
+using VRS.Areas.Admin.Models.VM;
 using VRS.Data;
 
 namespace VRS.Areas.Admin.Controllers
@@ -14,10 +16,12 @@ namespace VRS.Areas.Admin.Controllers
     public class VehiclesController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly IWebHostEnvironment _appEnvironment;
 
-        public VehiclesController(ApplicationDbContext context)
+        public VehiclesController(ApplicationDbContext context, IWebHostEnvironment hostEnvironment)
         {
             _context = context;
+            _appEnvironment = hostEnvironment;
         }
 
         // GET: Admin/Vehicles
@@ -60,17 +64,58 @@ namespace VRS.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,CategoryId,BrandId,VehicleName,ModelName,ModelYear,Color,Seats,Price,RentPerHour,VehicleImage,Availability,CreatedBy,CreatedTime,UpdatedBy,UpdatedTime")] Vehicle vehicle)
+        public async Task<IActionResult> Create(VehicleVM vehicleVM)
         {
+
+
             if (ModelState.IsValid)
             {
-                _context.Add(vehicle);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    var fileFolder = _appEnvironment.WebRootPath + "\\VehicleImages\\";
+                    var fileName = DateTime.Now.ToString("ddMMyyhhmmsstt") + "_" + vehicleVM.ImageFile.FileName;
+
+                    var filePath = fileFolder + fileName;
+
+                    using (var stream = System.IO.File.Create(filePath))
+                    {
+                        vehicleVM.ImageFile.CopyTo(stream);
+                    }
+
+                    // For ASP.NET Core >= 5.0
+                    var Userid = User.FindFirstValue(ClaimTypes.NameIdentifier);// will give the user's Id
+
+                    Vehicle vehicle = new Vehicle
+                    {
+                        VehicleName = vehicleVM.VehicleName,
+                        CategoryId = vehicleVM.CategoryId,
+                        BrandId = vehicleVM.BrandId,
+                        ModelName = vehicleVM.ModelName,
+                        ModelYear = vehicleVM.ModelYear,
+                        VehicleImage = fileName,
+                        Availability = vehicleVM.Availability,
+                        Color = vehicleVM.Color,
+                        CreatedBy = new Guid(Userid),
+                        CreatedTime = DateTime.Now,
+                        Price = vehicleVM.Price,
+                        RentPerHour = vehicleVM.RentPerHour,
+                        Seats = vehicleVM.Seats,
+                        UpdatedBy = null,
+                        UpdatedTime = null
+                    };
+                    _context.Add(vehicle);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (Exception ex)
+                {
+
+                    throw;
+                }
             }
-            ViewData["BrandId"] = new SelectList(_context.brands, "Id", "BrandName", vehicle.BrandId);
-            ViewData["CategoryId"] = new SelectList(_context.categories, "Id", "CategoryName", vehicle.CategoryId);
-            return View(vehicle);
+            ViewData["BrandId"] = new SelectList(_context.brands, "Id", "BrandName", vehicleVM.BrandId);
+            ViewData["CategoryId"] = new SelectList(_context.categories, "Id", "CategoryName", vehicleVM.CategoryId);
+            return View(vehicleVM);
         }
 
         // GET: Admin/Vehicles/Edit/5

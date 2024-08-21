@@ -86,7 +86,8 @@
                 @Html.DisplayFor(modelItem => item.RentPerHour)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.VehicleImage)
+                    @* @Html.DisplayFor(modelItem => item.VehicleImage) *@
+                    <img class="vehicleImg" src="~/VehicleImages/@item.VehicleImage" alt="@item.VehicleName" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Availability)
