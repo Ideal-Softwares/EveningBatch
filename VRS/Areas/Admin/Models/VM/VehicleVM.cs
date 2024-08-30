@@ -11,7 +11,9 @@ namespace VRS.Areas.Admin.Models.VM
 
         public int BrandId { get; set; }
 
-
+        [StringLength(50)]
+        [Display(Description = "Vehicle Name")]
+        [RegularExpression("^([a-zA-Z0-9 .&'-]+)$", ErrorMessage = "Invalid Vehicle Name")]
         public string VehicleName { get; set; }
 
         public string ModelName { get; set; }

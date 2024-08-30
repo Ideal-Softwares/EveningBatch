@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LcKwdJdxMFeES2CwwpTgqlHDTtXHHtl5s7Uu5Zuknfs=",
+  "Source": "VRS.WebAPI",
+  "BasePath": "_content/VRS.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

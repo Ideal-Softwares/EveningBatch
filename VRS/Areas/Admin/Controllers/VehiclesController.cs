@@ -66,9 +66,16 @@ namespace VRS.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(VehicleVM vehicleVM)
         {
+            if(string.IsNullOrEmpty(vehicleVM.VehicleName))
+            {
+                ModelState.AddModelError(vehicleVM.VehicleName, "Vehicle Name is Required");
 
-
-            if (ModelState.IsValid)
+            }
+            else if(vehicleVM.VehicleName.Contains('!') || vehicleVM.VehicleName.Contains('@') || vehicleVM.VehicleName.Contains('#') || vehicleVM.VehicleName.Contains('*'))
+            {
+                ModelState.AddModelError("VehicleName", "Special Characters are not allowed");
+            }
+                if (ModelState.IsValid)
             {
                 try
                 {

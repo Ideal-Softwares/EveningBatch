@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\VRS.WebAPI.props" />
+</Project>
